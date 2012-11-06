@@ -33,5 +33,3 @@ if operator = q
 	puts "Have a nice day."
 
 end
-
-math.sqrt(64)
