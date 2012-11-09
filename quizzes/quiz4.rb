@@ -26,7 +26,7 @@ end
 
 # map.numbers ** 2 to array numbers2[]
 
-Numbers.map() {|i| i*i} #return in [numbers2]
+Numbers.map() {|number| number * number} #return in [numbers2]
 
 puts numbers
 puts numbers2

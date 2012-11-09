@@ -41,12 +41,3 @@ students << student
 
 puts students
 
-
-
-# PRODUCT STORY QUIZ 4 
-# prompt the user to enter a numbe
-# number or (q)uit
-# n to numbers array
-# create a new array with squared numbers from the previous array
-# map takes an array and creates a new array from it
-
