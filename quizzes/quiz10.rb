@@ -10,12 +10,11 @@ require 'pry'
 
 puts "(what number?)"
 response = gets.to_i
-
+response2 = response ** 2
+	
 	begin
-		response2 = response ** 2
+		response.explode
 	end
-
-	response.explode
 
 	rescue
 		puts "sorry your code is craaap.  Also the square of #{response} is #{response2}"
