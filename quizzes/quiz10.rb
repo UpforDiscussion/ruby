@@ -8,9 +8,6 @@
 
 require 'pry'
 
-
-
-
 puts "(what number?)"
 response = gets.to_i
 
@@ -21,8 +18,7 @@ response = gets.to_i
 	response.explode
 
 	rescue
-		puts "sorry your code is craaap.  Also the square of response is #{response2}"
+		puts "sorry your code is craaap.  Also the square of #{response} is #{response2}"
 	end
 
-end
 
