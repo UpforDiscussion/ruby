@@ -11,6 +11,7 @@ require 'test/unit'
 class MyString < Test::Unit::TestCase
 	
 	def test_simple
-		assert_equal((mystring.length('helloworld'),11) 
+		mystring = 'helloworld'
+		assert_equal((mystring.length),11) 
 	end
 end
