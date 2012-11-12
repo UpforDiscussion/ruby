@@ -12,9 +12,9 @@ require 'pry'
 
 
 puts "(what number?)"
+response = gets.to_i
 
 	begin
-		response = gets.to_i
 		response2 = response ** 2
 	end
 
